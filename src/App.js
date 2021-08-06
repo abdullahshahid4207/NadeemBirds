@@ -1,13 +1,8 @@
-import React from 'react';
-import AppRouter from './config/Router'
 import './App.css';
+import AppRouter from './config/Router';
 
 const App = () => {
-  return(
-    <div className='App'>
-      <AppRouter />
-    </div>
-  );
+  return <AppRouter />
 };
 
 export default App;

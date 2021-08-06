@@ -1,12 +1,26 @@
+import Card from './Card'
+import Header from './Header';
 
-
-const Cards = (props) => {
+const Cards = () => {
     return (
-        <div class="card p-2 m-2 rounded" style={{width: '18rem', backgroundColor: '#8e9aaf'}}>
-            <img src={props.src} class="card-img-top rounded" alt="..." />
-            <div class="card-body">
-                <h5 style={{color: '#fff'}} class="card-title">{props.title}</h5>
-                <p class="card-text">{props.dis}</p>
+        <div>
+            <Header />
+            <div style={{ textAlign: 'center', marginTop: "100px" }}>
+                <h3>Products</h3>
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }} className='container'>
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
+                <Card src='https://media.istockphoto.com/photos/indian-ringneck-in-cage-picture-id172307984?k=6&m=172307984&s=612x612&w=0&h=CkH2ewpJfJh7xs7mM4B0vcItYM20Wwg0tWnd-dvbD0c=' title='Green Ringneck' dis='Rs: $74.00' />
             </div>
         </div>
     );

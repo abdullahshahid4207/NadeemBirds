@@ -1,14 +1,14 @@
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Contact from '../components/Contact';
 import Home from '../container/Home';
-import Product from '../container/Product';
-import Contect from '../container/Contect';
+import Cards from '../components/Cards';
 
 const AppRouter = () => {
     return (
         <Router>
             <Route exact path='/' component= {Home} />
-            <Route exact path='/Product' component= {Product} />
-            <Route exact path='/Contect' component= {Contect} />
+            <Route exact path='/contact' component= {Contact} />
+            <Route exact path='/products' component= {Cards} />
         </Router>
     );
 };
