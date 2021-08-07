@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/NadeemBirds/static/css/main.00863d46.chunk.css",
-    "main.js": "/NadeemBirds/static/js/main.ba25b6ad.chunk.js",
-    "main.js.map": "/NadeemBirds/static/js/main.ba25b6ad.chunk.js.map",
-    "runtime-main.js": "/NadeemBirds/static/js/runtime-main.4596eacb.js",
-    "runtime-main.js.map": "/NadeemBirds/static/js/runtime-main.4596eacb.js.map",
-    "static/js/2.7779d094.chunk.js": "/NadeemBirds/static/js/2.7779d094.chunk.js",
-    "static/js/2.7779d094.chunk.js.map": "/NadeemBirds/static/js/2.7779d094.chunk.js.map",
-    "index.html": "/NadeemBirds/index.html",
-    "static/css/main.00863d46.chunk.css.map": "/NadeemBirds/static/css/main.00863d46.chunk.css.map",
-    "static/js/2.7779d094.chunk.js.LICENSE.txt": "/NadeemBirds/static/js/2.7779d094.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.00863d46.chunk.css",
+    "main.js": "/static/js/main.ba25b6ad.chunk.js",
+    "main.js.map": "/static/js/main.ba25b6ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7a2c652.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7a2c652.js.map",
+    "static/js/2.7779d094.chunk.js": "/static/js/2.7779d094.chunk.js",
+    "static/js/2.7779d094.chunk.js.map": "/static/js/2.7779d094.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.00863d46.chunk.css.map": "/static/css/main.00863d46.chunk.css.map",
+    "static/js/2.7779d094.chunk.js.LICENSE.txt": "/static/js/2.7779d094.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4596eacb.js",
+    "static/js/runtime-main.d7a2c652.js",
     "static/js/2.7779d094.chunk.js",
     "static/css/main.00863d46.chunk.css",
     "static/js/main.ba25b6ad.chunk.js"
